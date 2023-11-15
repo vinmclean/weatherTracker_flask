@@ -22,4 +22,4 @@ def get_weather_data(city, api_key):
     return weather_data
 
 if __name__ == '__main__':
-    app.run
+    app.run(debug=True)
